@@ -9,7 +9,9 @@ const html = `
   :estimate-size="70"
   v-on:tobottom="onScrollToBottom"
 >
-  <div slot="footer" class="loading-spinner">Loading ...</div>
+  <template #footer>
+    <div slot="footer" class="loading-spinner">Loading ...</div>
+  </template>
 </virtual-list>
 `;
 

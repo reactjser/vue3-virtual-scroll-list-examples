@@ -124,7 +124,7 @@ const onTotop = () => {
 };
 
 const jump = () => {
-  vsl.value.scrollToIndex(3);
+  vsl.value.scrollToIndex(2);
 };
 </script>
 

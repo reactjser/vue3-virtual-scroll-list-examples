@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import GithubCorner from '../../components/Corner.vue';
+</script>
+
 <template>
   <div class="example">
+    <GithubCorner />
+
     <h2 class="name">vue3-virtual-scroll-list</h2>
 
     <div class="desc">

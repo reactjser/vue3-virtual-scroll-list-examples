@@ -11,6 +11,7 @@ const url = getCodeUrl();
     :href="url"
     class="github-corner"
     aria-label="View source on GitHub"
+    target="_blank"
   >
     github
   </a>
