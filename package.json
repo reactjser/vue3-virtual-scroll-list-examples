@@ -13,7 +13,7 @@
     "mockjs": "^1.1.0",
     "vue": "^3.0.5",
     "vue-router": "^4.0.11",
-    "vue3-virtual-scroll-list": "^0.1.2"
+    "vue3-virtual-scroll-list": "^0.2.0"
   },
   "devDependencies": {
     "@types/mockjs": "^1.0.4",
