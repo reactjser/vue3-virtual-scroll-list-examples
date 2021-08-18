@@ -96,7 +96,7 @@ h6 {
 .example {
   margin: 0 auto;
   padding: 0 2em;
-  width: 776px;
+  width: 900px;
   padding-top: 3em;
   @media (max-width: 640px) {
     margin: unset;
@@ -131,9 +131,5 @@ h6 {
   &::-webkit-scrollbar-thumb:hover {
     background: #b2b2b2;
   }
-}
-
-code {
-  background-color: pink !important;
 }
 </style>

@@ -62,7 +62,7 @@ const onScrollToBottom = () => {
   <div class="example">
     <GithubCorner />
     <Introduction
-      description="Use <code>v-on:tobottom</code> to listen scroll reach bottom, add a footer slot as loading, then append next parts data into <code>data-sources</code> array."
+      description="Use <code>@tobottom</code> to listen scroll reach bottom, add a footer slot as loading, then append next parts data into <code>data-sources</code> array."
     />
 
     <div class="example-content">
@@ -79,8 +79,8 @@ const onScrollToBottom = () => {
           :estimate-size="70"
           :item-class="'list-item-infinite'"
           :footer-class="'loader-wrapper'"
-          v-on:totop="onScrollToTop"
-          v-on:tobottom="onScrollToBottom"
+          @totop="onScrollToTop"
+          @tobottom="onScrollToBottom"
         >
           <template #footer>
             <div class="loader"></div>

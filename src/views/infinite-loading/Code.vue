@@ -7,7 +7,7 @@ const html = `
   :data-sources="items"
   :data-component="itemComponent"
   :estimate-size="70"
-  v-on:tobottom="onScrollToBottom"
+  @tobottom="onScrollToBottom"
 >
   <template #footer>
     <div slot="footer" class="loading-spinner">Loading ...</div>

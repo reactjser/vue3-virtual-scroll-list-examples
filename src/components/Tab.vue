@@ -27,14 +27,14 @@ const eventClickCode = () => {
 <template>
   <div class="tab">
     <div
-      v-on:click="eventClickView"
+      @click="eventClickView"
       class="tab-item view"
       v-bind:class="{ active: isView }"
     >
       VIEW
     </div>
     <div
-      v-on:click="eventClickCode"
+      @click="eventClickCode"
       class="tab-item code"
       v-bind:class="{ active: !isView }"
     >

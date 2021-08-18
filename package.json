@@ -22,6 +22,7 @@
     "less": "^4.1.1",
     "typescript": "^4.3.2",
     "vite": "^2.4.4",
+    "vite-plugin-vue-md": "0.0.1",
     "vue-tsc": "^0.2.2"
   }
 }

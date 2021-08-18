@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import 'milligram/dist/milligram.css';
 import hljs from 'highlight.js';
 import javascript from 'highlight.js/lib/languages/javascript';
+import './less/index.less';
 
 import App from './App.vue';
 import router from './router';
