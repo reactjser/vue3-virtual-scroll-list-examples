@@ -54,9 +54,9 @@ const items = ref([{uid: 'unique_1', text: 'abc'}, {uid: 'unique_2', text: 'xyz'
 | estimate-size	| The estimate size of each item, if it is closer to the average size, the scrollbar length looks more accurately. It is recommended to assign the average that calculate by yourself | _number_ | `50` |
 
 
-### Events
+### Public Methods
 
-| 事件名     | 说明                                     | 回调参数            |
+| 方法名     | 说明                                     | 回调参数            |
 | ---------- | ---------------------------------------- | ------------------- |
 | reset      | Reset all state back to initial | - |
 | scrollToBottom | Manual set scroll position to bottom | -  |
