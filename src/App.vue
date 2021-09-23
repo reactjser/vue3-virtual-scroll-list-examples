@@ -18,7 +18,7 @@
   </div>
   <router-view />
   <div class="rights">
-    备案号：<a href="https://cloud.tencent.com/account/recover">粤ICP备18062718号</a>
+    备案号：<a href="https://beian.miit.gov.cn/">粤ICP备18062718号</a>
   </div>
 </template>
 
