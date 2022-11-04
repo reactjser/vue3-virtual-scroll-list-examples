@@ -17,23 +17,11 @@
     <router-link to="/chat-room">聊天室</router-link>
   </div>
   <router-view />
-  <div class="rights">
-    备案号：<a href="https://cloud.tencent.com/account/recover">粤ICP备18062718号</a>
-  </div>
 </template>
 
 <style lang="less">
 body {
   font-size: 18px;
-}
-
-.rights {
-  font-size: 14px;
-  text-align: center;
-  padding: 10px 0;
-  a {
-    color: inherit;
-  }
 }
 
 h1,
