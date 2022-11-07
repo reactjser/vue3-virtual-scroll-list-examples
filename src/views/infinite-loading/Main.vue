@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from '@vue/reactivity';
+import { ref } from 'vue';
 import { Random } from 'mockjs';
 // @ts-ignore
 import VirtualList from 'vue3-virtual-scroll-list';
@@ -32,7 +32,6 @@ const items = ref(getPageData(pageSize, 0));
 
 const isShowView = ref(DEFAULT_TAB === TAB_TYPE.VIEW);
 const onTabChange = (type: TAB_TYPE) => {
-  console.log(type);
   isShowView.value = type === TAB_TYPE.VIEW;
 };
 

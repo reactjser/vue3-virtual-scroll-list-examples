@@ -3,10 +3,10 @@
     <router-link to="/">首页</router-link>
     <span class="line">|</span>
     <!-- <router-link to="/fixed-size">fixed size</router-link>
+      <span class="line">|</span> -->
+      <router-link to="/dynamic-size">动态高度</router-link>
       <span class="line">|</span>
-      <router-link to="/dynamic-size">dynamic size</router-link>
-      <span class="line">|</span>
-      <router-link to="/horizontal">horizontal</router-link>
+      <!-- <router-link to="/horizontal">horizontal</router-link>
       <span class="line">|</span> -->
     <router-link to="/infinite-loading">无限加载</router-link>
     <span class="line">|</span>
